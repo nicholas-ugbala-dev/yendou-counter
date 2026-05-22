@@ -1,7 +1,7 @@
 import { createContext } from 'react'
 
 
-interface CounterContextType {
+export interface CounterContextType {
     count: number
     increment: () => void
 }
